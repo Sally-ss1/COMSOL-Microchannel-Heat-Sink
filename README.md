@@ -35,6 +35,7 @@ parallel channels, and exits through the outlet manifold.
 
 *Figure 1. Computational geometry of the straight rectangular microchannel heat sink.*
 
+
 ### Geometry
 
 | Parameter | Value |
@@ -95,6 +96,7 @@ The final mesh contained approximately **438,000 tetrahedral elements**.
 *Figure 2. Computational mesh of the SRM heat sink model with local refinement
 in the microchannel region.*
 
+
 ---
 
 ## Results
@@ -104,6 +106,7 @@ in the microchannel region.*
 ![Temperature distribution](images/temperature_distribution.png)
 
 *Figure 3. Predicted temperature distribution in the SRM heat sink.*
+
 
 The predicted temperature field shows the combined effects of heat conduction
 through the copper block and convective cooling within the microchannels.
@@ -116,6 +119,7 @@ flow distribution and the conduction path between the heat source and channels.
 ![Velocity distribution](images/velocity_distribution.png)
 
 *Figure 4. Coolant velocity distribution through the SRM flow domain.*
+
 
 The velocity field shows non-uniform flow distribution among the parallel
 microchannels, with higher velocities observed in channels farther from the
@@ -133,6 +137,7 @@ rates.
 
 *Figure 5. Comparison of simulated pressure drop with experimental data
 reported by Al-Neama et al. [1].*
+
 
 The simulated pressure drop increases nonlinearly with coolant flow rate and
 captures the overall trend observed in the experimental measurements.
